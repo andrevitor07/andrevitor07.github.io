@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minha História</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="nav" id="nav">
+  <a href="#home" class="brand" id="brandName">André Vitor</a>
+  <button class="burger" id="burger" aria-label="Abrir menu">☰</button>
+  <nav id="menu">
+    <a href="#historia">Minha história</a>
+    <a href="#evolucao">Evolução</a>
+    <a href="#academica">Vida acadêmica</a>
+    <a href="#conquistas">Conquistas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p>Olá, eu sou</p>
+    <h1>André VItor Souza Pereira</h1>
+    <p class="lead">Tenho 19 anos e estou cursando Engenharia de Software na UDF. Ainda não tenho projetos, mas a minha história e criações estão só começando.</p>
+    <blockquote>"A formação não termina no diploma, ela se constrói a cada nova experiência compartilhada."</blockquote>
+    <a href="#historia" class="btn">Conhecer minha história</a>
+  </div>
+  <figure class="hero-img">
+    <img src="img/destaque.jpeg" alt="Foto de destaque">
+  </figure>
+</section>
+
+<section id="historia" class="section">
+  <h2>Minha história</h2>
+  <div class="grid">
+    <article class="card"><h3>Infância</h3><p>Minha infância foi marcada por muitas descobertas e aprendizados. Sou filho único de pais que sempre me apoiaram e me moldaram para eu ser a pessoa que sou hoje.</p></article>
+    <article class="card"><h3>Época da escola</h3><p>Comecei minha jornada escolar na escola particular e cresci nela, mas no ensino médio eu mudei para a pública e percebi que o ensino, a estrutura e os alunos são totalmente diferentes. Entretanto, eu me adaptei bem, conheci pessoas maravilhosas e agora estou na UDF, tentando realizar meu sonho.</p></article>
+    <article class="card"><h3>Experiências marcantes</h3><p>Experiência de se formar, ir à algum show pela primeira vez, viajar pra caldas e entre outras experiências.</p></article>
+    <article class="card"><h3>Dificuldades e aprendizados</h3><p>Enfrentei algumas dificuldades ao longo da minha vida, sempre fui uma pessoa mais tímida, entâo acabava tendo um pouco de dificuldade em me socializar, mas com o tempo consegui superar isso.</p></article>
+  </div>
+</section>
+
+<section id="evolucao" class="section alt">
+  <h2>Minha evolução</h2>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<section id="academica" class="section">
+  <h2>Minha vida acadêmica</h2>
+  <div class="split">
+    <figure><img src="img/udf1.jpeg" alt="Foto da faculdade"></figure>
+    <div>
+      <h3>Minha entrada na faculdade</h3>
+      <p>Ao entrar na faculdade, me senti um pouco perdido e ansioso só de pensar em tudo que estava por vim, percebi que é totalmente diferente da escola e que é cada um por si, mas aos poucos me adaptei e criei novas amizades.</p>
+      <h3>O curso</h3>
+      <p>Eu escolhi Engenharia de Software porque sempre tive interesse em tecnologia e pelo futuro promissor que eu posso ter nessa área.</p>
+      <h3>Aprendizados e objetivos</h3>
+      <p>Aprendi o básico de algumas linguagens de programação como Python, HTML, CSS, JavaScript e C, mas ainda preciso evoluir bem mais nessas linguagens e aprender outras diversas para ser um bom desenvolvedor no futuro.</p>
+    </div>
+  </div>
+</section>
+
+<section id="conquistas" class="section alt">
+  <h2>Conquistas e objetivos</h2>
+  <div class="grid three">
+    <article class="card"><h3>Conquistas</h3><p>Me formar, conseguir um bom notebook para estudos e para lazer e ter uma família amorosa e cuidadora.</p></article>
+    <article class="card"><h3>Objetivos profissionais</h3><p>Pretendo me tornar um desenvolvedor full-stack, contribuir para projetos inovadores e ter grandes oportunidades no mercado de trabalho.</p></article>
+    <article class="card"><h3>Sonhos e planos</h3><p>Me casar, ter filhos, viajar ao redor do mundo e ter uma vida pacífica e feliz.</p></article>
+  </div>
+</section>
+
+
+<section id="contato" class="section alt">
+  <h2>Contato</h2>
+  <p>Brasília - DF, Brasil</p>
+  <p>andrevitorsouzapereira8@gmail.com</p>
+  <p>Telefone: (61) 99412-7528</p>
+    
+  <div class="social" id="social"></div>
+</section>
+
+<footer><p>© André Vitor Souza Pereira</p></footer>
+
+<!-- Visualizador de imagens -->
+<div class="lightbox" id="lightbox"><img alt=""><p></p></div>
+
+<script src="script.js"></script>
+</body>
+</html>
